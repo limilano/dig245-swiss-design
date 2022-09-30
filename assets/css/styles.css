@@ -1,2 +1,38 @@
 
 /* css */
+.poster {
+  font-family: 'Roboto', sans-serif;
+  background: #5EBD44;
+}
+
+h5 {
+  color: white;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  font-weight: bold;
+  padding-top: 25px;
+}
+
+h1 {
+  font-size: 8rem;
+  line-height: 8rem;
+  font-weight: bold;
+  color:black;
+}
+
+p {
+  color:black;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: bold;
+  padding-top: 25px;
+}
+
+.graphic {
+  padding: 0px;
+}
+
+svg {
+  width:100%;
+  height: auto;
+}
