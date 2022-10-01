@@ -5,29 +5,6 @@
   background: #5EBD44;
 }
 
-h5 {
-  color: white;
-  font-size: 2rem;
-  line-height: 2.5rem;
-  font-weight: bold;
-  padding-top: 25px;
-}
-
-h1 {
-  font-size: 8rem;
-  line-height: 8rem;
-  font-weight: bold;
-  color:black;
-}
-
-p {
-  color:black;
-  font-size: 1rem;
-  line-height: 1.5rem;
-  font-weight: bold;
-  padding-top: 25px;
-}
-
 .graphic {
   padding: 0px;
 }
@@ -35,4 +12,158 @@ p {
 svg {
   width:100%;
   height: auto;
+}
+
+h5 {
+  color: white;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  font-weight: bold;
+  padding-top: 5px;
+}
+
+h1 {
+  font-size: 6rem;
+  line-height: 6rem;
+  font-weight: bold;
+  color:black;
+}
+
+p {
+  color:black;
+  font-size: 1rem;
+  line-height: 1rem;
+  font-weight: bold;
+  padding-top: 25px;
+}
+
+/* For extremely small screen devices (595px and below) */
+@media only screen and (max-width: 595px) {
+  h5 {
+    color: white;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    font-weight: bold;
+    padding-top: 5px;
+  }
+
+  h1 {
+    font-size: 4rem;
+    line-height: 3rem;
+    font-weight: bold;
+    color:black;
+    padding-top:10px;
+  }
+
+  p {
+    color:black;
+    font-size: .5rem;
+    line-height: .5rem;
+    font-weight: bold;
+    padding-top: 25px;
+  }
+}
+
+/* Small screen devices (600px and above) */
+@media only screen and (min-width: 600px) {
+  h5 {
+    color: white;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    font-weight: bold;
+    padding-top: 20px;
+  }
+
+  h1 {
+    font-size: 6.5rem;
+    line-height: 6.5rem;
+    font-weight: bold;
+    color:black;
+  }
+
+  p {
+    color:black;
+    font-size: .75rem;
+    line-height: 1rem;
+    font-weight: bold;
+    padding-top: 25px;
+  }
+}
+
+/* Medium screen devices (768px and above) */
+@media only screen and (min-width: 768px) {
+  h5 {
+    color: white;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    font-weight: bold;
+    padding-top: 20px;
+  }
+
+  h1 {
+    font-size: 7.5rem;
+    line-height: 7rem;
+    font-weight: bold;
+    color:black;
+  }
+
+  p {
+    color:black;
+    font-size: 1rem;
+    line-height: 1rem;
+    font-weight: bold;
+    padding-top: 25px;
+  }
+}
+
+/* Big screen devices (889px and above) */
+@media only screen and (min-width: 889px) {
+  h5 {
+    color: white;
+    font-size: 1.75rem;
+    line-height: 2rem;
+    font-weight: bold;
+    padding-top: 20px;
+  }
+
+  h1 {
+    font-size: 7.5rem;
+    line-height: 7.5rem;
+    font-weight: bold;
+    color:black;
+  }
+
+  p {
+    color:black;
+    font-size: 1rem;
+    line-height: 1rem;
+    font-weight: bold;
+    padding-top: 25px;
+  }
+}
+
+/* Extra big screen devices (1200px and above) */
+@media only screen and (min-width: 1200px) {
+  h5 {
+    color: white;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    font-weight: bold;
+    padding-top: 15px;
+  }
+
+  h1 {
+    font-size: 8.5rem;
+    line-height: 8rem;
+    font-weight: bold;
+    color:black;
+  }
+
+  p {
+    color:black;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: bold;
+    padding-top: 25px;
+  }
 }
